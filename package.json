@@ -1,0 +1,29 @@
+{
+  "name": "polco",
+  "version": "1.0.0",
+  "description": "A online video server -like youtube",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biswa418/polco-backend.git"
+  },
+  "keywords": [
+    "Polco",
+    "video",
+    "youtube"
+  ],
+  "author": "Biswajeet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/biswa418/polco-backend/issues"
+  },
+  "homepage": "https://github.com/biswa418/polco-backend#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
