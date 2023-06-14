@@ -30,8 +30,8 @@ module.exports.signin = async (req, res) => {
             expiresIn: "1d"
         })
 
-        res.send(200).json({
-            message: 'Successful',
+        res.status(200).json({
+            message: 'Signin Successful',
             token
         })
 
