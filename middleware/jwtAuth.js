@@ -10,7 +10,7 @@ module.exports.validate = (req, res, next) => {
 
         jwt.verify(token, process.env.JWT_SECRET, function (err, decoded) {
             if (err) {
-                return res.status(400).json({ err });
+                return res.status(400).json({ message: err });
             }
 
             req.body.userId = decoded._id; //verified
